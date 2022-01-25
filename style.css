@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+/* Desktop and laptop Size  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: hsl(257, 40%, 49%) url('images/bg-desktop.svg') ;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*SECTION */
+
+#logo{
+    width: 13%;
+    margin: 2% 0% 0% 2%;
+}
+
+.parent{
+
+    /* border: 2px solid red; */
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 2% auto;
+}
+
+
+#mockups{
+    width: 50%;
+}
+
+.content{
+    width: 45%;
+    margin-top: 4%;
+}
+
+h1 {
+    width: 70%;
+    color: white;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 600;
+    font-size: xx-large;
+}
+
+
+p {
+    font-weight: 400;
+    text-align: justify;
+    width: 80%;
+    color: wheat;
+    margin: 5% 0%;
+}
+
+.btn{
+    padding: 1% 7%;
+    border-radius: 21px;
+    background: white;
+    color:hsl(300, 69%, 71%);
+    font-weight: 600;
+    font-family: 'Poppins';
+    text-decoration: none;
+   
+}
+
+.btn:hover{
+    background:hsl(300, 69%, 71%);
+    color: white;
+    box-shadow: 7px 5px 4px black;
+}
+
+/* Footer */
+
+footer{
+    margin-top: 24%;
+    margin-left: 54%;
+
+}
+.footer-icon{
+    width: 16%;
+    margin: 0px 10px;
+    background: white;
+    padding: 8px;
+    border-radius: 24%;
+
+}
+
+.footer-icon:hover{
+    background-color: hsl(300, 25%, 78%);
+}
+
+
+
+
+/* Tablets */
+@media screen and (max-width:772px){
+
+    body{
+         font-size: 18px;
+       
+    }
+
+    #logo{
+        width: 35%;
+        margin: 6% 0% 0% 5%;
+    
+    }
+
+     .parent{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        justify-content: center;
+        margin:9% auto;
+        /* border: 2px solid red; */
+   
+    
+     }
+
+
+     #mockups{
+        width: 90%;
+    }
+
+   
+
+    .content{
+        width: 90%;
+        margin-top: 10%;
+        /* border: 2px solid wheat; */
+        text-align: center;
+    }
+
+     h1{
+         width: 100%;
+         font-size:xx--large;
+        }
+        
+     p{
+         text-align: center;
+         line-height: 3rem;
+         width: 100%;
+         padding: 10% 0%;
+     }
+      
+
+    footer{
+         margin-left:0%;
+    }
+
+
+    
+  .footer-icon{
+      width: 10%;
+  }
+
+
+    }
+
+
+    
+     /* Mobile- 375px */
+    @media screen and (max-width:375px){
+        
+       
+     
+        #logo{
+            width: 45%;
+            margin: 6% 0% 0% 5%;
+        
+        }
+       .footer-icon{
+           width: 16%;
+       }
+        
+      
+}
